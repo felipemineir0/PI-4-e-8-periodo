@@ -1,0 +1,29 @@
+.subtitulo {
+  color: #c71585;
+  margin-top: 110px;
+  margin-bottom: 20px;
+}
+
+.tituloFormulario {
+  margin-top: 20px;
+  text-align: center;
+  color: #c71585;
+}
+
+.formCadastro {
+  padding-top: 10px;
+}
+.interior {
+  border-color: #c71585;
+}
+.btn {
+  background-color: #c71585;
+  border-color: #ff1493;
+  margin-bottom: 20px;
+}
+#test {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: groove;
+  border-color: #c71585;
+}

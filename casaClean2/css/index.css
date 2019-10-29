@@ -1,0 +1,43 @@
+#carouselExampleIndicators {
+  margin-top: 96px;
+}
+.tituloServico {
+  text-align: center;
+  color: #c71585;
+  margin: 20px;
+}
+.servicos > h2 {
+  text-align: center;
+  color: #c71585;
+}
+
+.servicos > img {
+  margin: auto;
+  display: block;
+}
+
+#serv {
+  margin-bottom: 40px;
+}
+.btn {
+  margin-left: 40px;
+  background-color: #c71585;
+  border-color: #ff1493;
+}
+.btn1 {
+  margin-left: 0.5px;
+  background-color: #c71585;
+  border-color: #ff1493;
+}
+.card {
+  border-color: #c71585;
+}
+.modal-content {
+  height: 570px;
+  width: 400px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+#exampleModalLabel {
+  color: #c71585;
+}

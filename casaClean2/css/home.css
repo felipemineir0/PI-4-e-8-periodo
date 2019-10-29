@@ -1,0 +1,68 @@
+.tituloEntrar {
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 20px;
+}
+body {
+  background-image: url('../imagens/casaclean.png');
+  background-size: 100%;
+  background-attachment: fixed;
+}
+#test {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: groove;
+  border-color: #c71585;
+}
+.entrar {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cadastro {
+  margin-bottom: 20px;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+input[type='submit'] {
+  background-color: #ff0066;
+  border: none;
+  cursor: pointer;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+#msg-sucesso {
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(50, 205, 50, 0.3);
+  border: 1px solid rgb(34, 139, 34);
+}
+
+.msg-erro {
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(250, 128, 114, 0.3);
+  border: 1px solid rgb(165, 42, 42);
+}
+.btn {
+  background-color: #c71585;
+  border-color: #ff1493;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.interior {
+  border-color: #c71585;
+}
