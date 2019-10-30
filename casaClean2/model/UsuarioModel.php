@@ -3,12 +3,7 @@
 require 'config/BancoDados.php';
 
   class Usuario{
-    public function funcaoConect(){
-      $conect = new BancoDados();
-      $pdo = $conect->obterConexao();
-      $conectLog = new BancoDados();
-      $pdo2 = $conectLog->obterConexaoLogin();
-    }
+    
       public $msgErro="";
       
       

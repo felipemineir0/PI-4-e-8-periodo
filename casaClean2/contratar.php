@@ -120,11 +120,14 @@ if(isset($_POST['nome'])){
   $cidade = addslashes($_POST['cidade']);
   $estado = addslashes($_POST['estado']);
 
-  if(!empty($nome)&& !empty($cep)&& !empty($rua)&& !empty($numero)&&
-   !empty($bairro)&& !empty($complemento)&& !empty($cidade)&& !empty($estado)){
-    $c->contratar($nome, $cep, $rua, $numero, $bairro, $complemento, $cidade, $estado);
+ if(!empty($nome)&& !empty($cep)&& !empty($rua)&& !empty($numero)&&
+   !empty($bairro)&& !empty($complemento)&& !empty($cidade)&& !empty($estado) 
+   && !empty($email) && !empty($cpf) && !empty($RG)){
+    $c->contratar($nome, $cep, $rua, $numero, $bairro,
+    $complemento, $cidade, $estado, $email, $cpf, $RG);
     if($c->msgErro==""){
-              if($c->contratar($nome, $cep, $rua, $numero, $bairro, $complemento, $cidade, $estado)){
+              if($c->contratar($nome, $cep, $rua, $numero, $bairro,
+              $complemento, $cidade, $estado, $email, $cpf, $RG)){
               ?>
               <div id="msg-sucesso">Cadastrado com sucesso!"</div>
               <?php
